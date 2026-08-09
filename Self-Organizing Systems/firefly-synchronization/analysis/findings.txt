@@ -1,0 +1,3 @@
+Findings:
+It seems advisable to choose a coupling radius (r) between 0.4 and 0.65
+for reliable synchronization.
