@@ -5,14 +5,14 @@ A playground of robotics concepts in the fields of - self-organizing systems, co
 
 | No anti-agents | 10% anti-agents |
 |:---:|:---:|
-| <img src="Self-Organizing Systems/wood-chip-clustering/animation/clustering_no_anti_agents.gif" width="400"> | <img src="Self-Organizing Systems/wood-chip-clustering/animation/clustering_with_anti_agents.gif" width="400"> |
+| <img src="CollectiveRobotics/wood-chip-clustering/animation/clustering_no_anti_agents.gif" width="400"> | <img src="CollectiveRobotics/wood-chip-clustering/animation/clustering_with_anti_agents.gif" width="400"> |
 | objects settle into many small, separate clusters | a small fraction of agents working "against" clustering locally ends up helping consolidate the objects into fewer, larger clusters |
 
 
-Have a look at the Project: [wood-chip clustering](https://github.com/NiHoffmann/robotics-playground/tree/main/Self-Organizing%20Systems/wood-chip-clustering).
+Have a look at the Project: [wood-chip clustering](https://github.com/NiHoffmann/robotics-playground/tree/main/CollectiveRobotics/wood-chip-clustering).
 
 ## Projects
-- [Self-Organizing Systems](https://github.com/NiHoffmann/robotics-playground/tree/main/Self-Organizing%20Systems)
-  - [Firefly Synchronization](https://github.com/NiHoffmann/robotics-playground/tree/main/Self-Organizing%20Systems/firefly-synchronization) - spontaneous sync from purely local coupling
+- [Collective Robotics](https://github.com/NiHoffmann/robotics-playground/tree/main/CollectiveRobotics)
+  - [Firefly Synchronization](https://github.com/NiHoffmann/robotics-playground/tree/main/CollectiveRobotics/firefly-synchronization) - spontaneous sync from purely local coupling
   - [Locust Alignment](https://github.com/NiHoffmann/robotics-playground/tree/main/Self-Organizing%20Systems/locust-alignment) - swarm direction consensus, plus an empirical transition-probability model
-  - [Wood Chip Clustering](https://github.com/NiHoffmann/robotics-playground/tree/main/Self-Organizing%20Systems/wood-chip-clustering) - ant-aggregation clustering, and how "anti-agents" can improve it
+  - [Wood Chip Clustering](https://github.com/NiHoffmann/robotics-playground/tree/main/CollectiveRobotics/wood-chip-clustering) - ant-aggregation clustering, and how "anti-agents" can improve it
