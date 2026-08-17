@@ -1,7 +1,18 @@
 # robotics-playground
-A playground of robotics proof-of-concepts and explorations - self-organizing systems, collective robotics, evolutionary robotics, and more. Everything here runs in simulation, so feel free to clone it, poke around, and play with it yourself.  
+A playground of robotics concepts in the fields of - self-organizing systems, collective robotics, evolutionary robotics, and more. Everything here runs in simulation, so feel free to clone it, poke around, and play with it yourself.
+
+**To give you an idea what this project collection is about** - Here we have a simulation with focus on Anti-Agent behaviour simple. Agents with no communication, only local sensing, self-organizing into clusters (and a small fraction of agents working *against* clustering can, counterintuitively, help form even larger ones):
+
+| No anti-agents | 10% anti-agents |
+|:---:|:---:|
+| <img src="Self-Organizing Systems/wood-chip-clustering/animation/clustering_no_anti_agents.gif" width="400"> | <img src="Self-Organizing Systems/wood-chip-clustering/animation/clustering_with_anti_agents.gif" width="400"> |
+| objects settle into many small, separate clusters | a small fraction of agents working "against" clustering locally ends up helping consolidate the objects into fewer, larger clusters |
 
 
-Personally i like the Self-Organizing Systems - woodchip clustering the most (Anti Agent behaviour playground).  
-  
-(Just recently started organizing my project on github, going to take a little while, sorry for some of the placeholder text etc. project iteself are working fine :D )
+Have a look at the Project: [wood-chip clustering](https://github.com/NiHoffmann/robotics-playground/tree/main/Self-Organizing%20Systems/wood-chip-clustering).
+
+## Projects
+- [Self-Organizing Systems](https://github.com/NiHoffmann/robotics-playground/tree/main/Self-Organizing%20Systems)
+  - [Firefly Synchronization](https://github.com/NiHoffmann/robotics-playground/tree/main/Self-Organizing%20Systems/firefly-synchronization) - spontaneous sync from purely local coupling
+  - [Locust Alignment](https://github.com/NiHoffmann/robotics-playground/tree/main/Self-Organizing%20Systems/locust-alignment) - swarm direction consensus, plus an empirical transition-probability model
+  - [Wood Chip Clustering](https://github.com/NiHoffmann/robotics-playground/tree/main/Self-Organizing%20Systems/wood-chip-clustering) - ant-aggregation clustering, and how "anti-agents" can improve it
